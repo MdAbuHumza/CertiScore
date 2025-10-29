@@ -49,16 +49,5 @@ This project is ideal for learning **Solidity**, **smart contract deployment**, 
 
 ---
 
-### 🚀 Next Steps (when you’re ready)
 
-Once you’re comfortable:
-
-1. Add *role-based access control* (using OpenZeppelin’s AccessControl).
-2. Store a *hash of student documents* (to verify authenticity).
-3. Use *IPFS* for storing certificates.
-4. Add *frontend (React + ethers.js)* for a clean UI.
-
----
-
-
-Contract link -- https://celo-sepolia.blockscout.com/address/0x304a6288886d0b83e57D51bf482F182E791147A7
+Deployed Smart Contract link -- https://celo-sepolia.blockscout.com/address/0x304a6288886d0b83e57D51bf482F182E791147A7
