@@ -49,5 +49,54 @@ This project is ideal for learning **Solidity**, **smart contract deployment**, 
 
 ---
 
+## 🛠 How to Use
+
+1. **Clone this repository**
+
+   bash
+   git clone https://github.com/XXX/immutable-grade-ledger.git
+   cd immutable-grade-ledger
+   
+
+2. **Open in Remix IDE**
+
+   * Visit [Remix Ethereum IDE](https://remix.ethereum.org/)
+   * Create a new file and **paste your code** above.
+   * Compile with **Solidity 0.8.0+**.
+   * Deploy using the **Injected Web3** environment (Metamask).
+
+3. **Interact with the Contract**
+
+   * Call `addGrade()` — only from the admin’s wallet.
+   * Call `getGrade(studentId)` — from any wallet to view grades.
+
+---
+
+## 🧠 Learning Outcomes
+By building this, you’ll understand:
+
+* How **smart contracts** ensure trust through immutability.
+* How to design **role-restricted functions**.
+* The basics of **Solidity syntax**, **events**, and **data mappings**.
+* How to **deploy and verify** contracts on a testnet.
+
+---
+
+## 💬 Future Enhancements
+
+🔹 Add role-based permissions for multiple verifiers.
+🔹 Integrate **IPFS** to store verified documents.
+🔹 Build a **React + Ethers.js** frontend for easy grade lookup.
+🔹 Add **NFT-based certificates** for each student credential.
+
+---
+
+## 👨‍💻 Author
+
+**Humza**
+*B.Tech CSE (Data Science)*
+🔗 [Celo Sepolia Contract Link](https://celo-sepolia.blockscout.com/address/0x304a6288886d0b83e57D51bf482F182E791147A7)
+
+---
 
 Deployed Smart Contract link -- https://celo-sepolia.blockscout.com/address/0x304a6288886d0b83e57D51bf482F182E791147A7
