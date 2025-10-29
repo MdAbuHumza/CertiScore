@@ -35,3 +35,4 @@ This project is ideal for learning **Solidity**, **smart contract deployment**, 
 
 ---
 
+Contract link -- https://celo-sepolia.blockscout.com/address/0x304a6288886d0b83e57D51bf482F182E791147A7
