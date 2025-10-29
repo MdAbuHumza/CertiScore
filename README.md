@@ -34,5 +34,31 @@ This project is ideal for learning **Solidity**, **smart contract deployment**, 
 ✅ **Event Logging** – Every grade addition is logged for transparency and easy tracking.
 
 ---
+### 🧩 How It Works
+
+1. *Deploy* the contract → your wallet becomes the admin.
+2. Use addGrade(studentId, name, course, marks) → only you (admin) can call this.
+3. Anyone can call getGrade(studentId) → returns immutable grade data.
+
+---
+
+### 🔒 Why It’s Immutable
+
+* Once a grade is added, there’s *no function to modify or delete* it.
+* Blockchain transactions themselves are immutable, so even the admin can’t “undo” a grade entry.
+
+---
+
+### 🚀 Next Steps (when you’re ready)
+
+Once you’re comfortable:
+
+1. Add *role-based access control* (using OpenZeppelin’s AccessControl).
+2. Store a *hash of student documents* (to verify authenticity).
+3. Use *IPFS* for storing certificates.
+4. Add *frontend (React + ethers.js)* for a clean UI.
+
+---
+
 
 Contract link -- https://celo-sepolia.blockscout.com/address/0x304a6288886d0b83e57D51bf482F182E791147A7
